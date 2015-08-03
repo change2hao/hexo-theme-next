@@ -4,7 +4,15 @@
 
 [在线预览](http://notes.iissnan.com) |  [English Documentation](README.en.md)
 
-![Desktop Preview](http://iissnan.com/nexus/next/desktop-preview.png)
+## 预览
+
+> NexT - 默认主题
+
+![NexT Preview](http://iissnan.com/nexus/next/desktop-preview.png)
+
+> Mist - Compact of NexT
+
+![Mist Preview](http://iissnan.com/nexus/next/mist-desktop-preview.png)
 
 ## 安装
 
@@ -13,13 +21,15 @@
         $ cd your-hexo-site
         $ git clone https://github.com/iissnan/hexo-theme-next themes/next
 
-2. 更改**站点** `_config.yml` 中的`theme`字段设置为`next`
+2. 更改**站点** `_config.yml` 中的 `theme` 字段设置为 `next`
 
         theme: next
 
+或者，你可以下载稳定的[发布版本](https://github.com/iissnan/hexo-theme-next/releases)。
+
 ## 更新
 
-```
+```shell
 cd themes/next
 git pull
 ```
@@ -32,12 +42,13 @@ git pull
 特性概览：
 
 - [支持自定义 LOGO 以及主题图标](https://github.com/iissnan/hexo-theme-next/wiki/%E8%87%AA%E5%AE%9A%E4%B9%89LOGO%E4%BB%A5%E5%8F%8A%E4%B8%BB%E9%A2%98%E5%9B%BE%E6%A0%87)
-- [支持 英语 / 简体 中文双语](https://github.com/iissnan/hexo-theme-next/wiki/%E8%AE%BE%E7%BD%AE%E8%AF%AD%E8%A8%80)
+- [支持多语言：英语 / 简体中文 / 繁体中文 / 法语](https://github.com/iissnan/hexo-theme-next/wiki/%E8%AE%BE%E7%BD%AE%E8%AF%AD%E8%A8%80)
 - [支持 多说 / DISQUS 评论系统](https://github.com/iissnan/hexo-theme-next/wiki/%E8%AE%BE%E7%BD%AE%E5%A4%9A%E8%AF%B4-DISQUS%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F)
-- [支持标签云页面](https://github.com/iissnan/hexo-theme-next/wiki/%E5%88%9B%E5%BB%BA%E6%A0%87%E7%AD%BE%E4%BA%91%E9%A1%B5%E9%9D%A2)
+- [支持 标签云 页面](https://github.com/iissnan/hexo-theme-next/wiki/%E5%88%9B%E5%BB%BA%E6%A0%87%E7%AD%BE%E4%BA%91%E9%A1%B5%E9%9D%A2)
+- [支持 分类 页面](https://github.com/iissnan/hexo-theme-next/wiki/%E5%88%9B%E5%BB%BA%E5%88%86%E7%B1%BB%E9%A1%B5%E9%9D%A2)
 - [支持 RSS 链接](https://github.com/iissnan/hexo-theme-next/wiki/%E6%98%BE%E7%A4%BA-feed-%E9%93%BE%E6%8E%A5)
 - [支持 About 页面](https://github.com/iissnan/hexo-theme-next/wiki/%E5%88%9B%E5%BB%BA-%22%E5%85%B3%E4%BA%8E%E6%88%91%22-%E9%A1%B5%E9%9D%A2)
-- [支持5款代码高亮主题](https://github.com/iissnan/hexo-theme-next/wiki/%E8%AE%BE%E5%AE%9A%E4%BB%A3%E7%A0%81%E9%AB%98%E4%BA%AE%E4%B8%BB%E9%A2%98)
+- [支持 5 款代码高亮主题](https://github.com/iissnan/hexo-theme-next/wiki/%E8%AE%BE%E5%AE%9A%E4%BB%A3%E7%A0%81%E9%AB%98%E4%BA%AE%E4%B8%BB%E9%A2%98)
 - [支持 Google / 百度统计](https://github.com/iissnan/hexo-theme-next/wiki/%E6%B7%BB%E5%8A%A0-Google---%E7%99%BE%E5%BA%A6-%E7%BB%9F%E8%AE%A1)
 - [支持 Google Webmaster tools](https://github.com/iissnan/hexo-theme-next/wiki/%E6%B7%BB%E5%8A%A0-Google-Webmaster-tools-%E9%AA%8C%E8%AF%81)
 - [支持 Creative Commons](https://github.com/iissnan/hexo-theme-next/wiki/%E8%AE%BE%E7%BD%AE-Creative-Commons-%E5%8D%8F%E8%AE%AE)
@@ -46,18 +57,20 @@ git pull
 - [设置侧边栏头像](https://github.com/iissnan/hexo-theme-next/wiki/%E8%AE%BE%E7%BD%AE%E4%BE%A7%E8%BE%B9%E6%A0%8F%E5%A4%B4%E5%83%8F)
 - [设置侧边栏社交链接](https://github.com/iissnan/hexo-theme-next/wiki/%E8%AE%BE%E7%BD%AE%E4%BE%A7%E8%BE%B9%E6%A0%8F%E7%A4%BE%E4%BA%A4%E9%93%BE%E6%8E%A5)
 
+- [Swiftype 站内搜索](https://github.com/iissnan/hexo-theme-next/wiki/Swiftype%E7%AB%99%E5%86%85%E6%90%9C%E7%B4%A2)
+
 
 ## 配置
 
 > NexT 坚持将复杂的细节隐藏，提供尽量少并且简便的设置，保持最大限度的易用性。
 
-为了尽量避免更新主题的时候，避免发生冲突，建议将配置写在**站点**的 `_config.yml`中。
+为了尽量避免更新主题的时候，避免发生冲突，建议将配置写在**站点**的 `_config.yml` 中。
 
 ### 放置在站点配置中的选项
 
 以下选项建议放置在站点级别的配置中，这些选项你在下个主题中可能也可以使用：）
 
-```
+```yml
 # =============================================================================
 # NexT Theme configuration
 # =============================================================================
@@ -107,11 +120,12 @@ since: 2011
 
 ### 主题配置
 
-```
+```yml
 # 菜单配置
 menu:
   home: /
   archives: /archives
+  #categories: /categories
   tags: /tags
   #about: /about
 
@@ -142,8 +156,16 @@ highlight_theme: normal
 # 开启数学公式渲染支持，默认关闭。设置为 `true` 开启。
 mathjax:
 
+
+# Mist
+#scheme: Mist
+
+
 # `阅读全文` 按钮跳转之后是否自动滚动页面到设置 `<!-- more -->` 的地方。
 scroll_to_more: true
+
+# 是否为侧边栏文章的目录自动添加索引，默认开启。设置为 `false` 关闭。
+toc_list_number: true
 ```
 
 ## 主题内建样式
@@ -158,7 +180,7 @@ scroll_to_more: true
 
 ### 使用方式：
 
-```
+```html
 <blockquote class="blockquote-center">blah blah blah</blockquote>
 ```
 
@@ -172,7 +194,7 @@ scroll_to_more: true
 
 ### 使用方式：
 
-```
+```html
 <img src="/image-url" class="full-image" />
 ```
 
