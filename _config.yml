@@ -79,7 +79,7 @@ duoshuo_info:
 # Use velocity to animate everything.
 use_motion: false
 
-# Fancybox
+# Fancyboxcd
 fancybox: true
 
 # Static files
