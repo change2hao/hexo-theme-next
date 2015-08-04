@@ -37,7 +37,7 @@ mathjax:
 
 
 # Schemes
-#scheme: Mist
+scheme: Mist
 
 
 # Sidebar, available value:
@@ -77,7 +77,7 @@ duoshuo_info:
 ## UNLESS YOU KNOW WHAT YOU ARE DOING
 
 # Use velocity to animate everything.
-use_motion: true
+use_motion: false
 
 # Fancybox
 fancybox: true
